@@ -1,33 +1,36 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 header {
-    background-color:#ff69b4;
+    background-color: #ffc4d8
     color: #ffffff;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 24px 0;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
 .imagem-logo {
 width: 50px;
 height: 50px;
 margin: 20px;
-padding: 20px;
+padding:20px;
 
 }
+.lista-cabeçalho {
+    display: flex;
+}
 
-.imagem-colegio {
+.imagem-colégio {
     width: 20%;
     height: 20%;
 }
 
 .Escola {
-    background-image: linear-gradient(#ff69b4,#7390ce)
+    background-image: linear-gradient(#0A1451, #7390CE);
     color: white;
-    display: flex;
-
+    display: flex
 }
-
